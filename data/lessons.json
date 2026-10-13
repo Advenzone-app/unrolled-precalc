@@ -1,0 +1,144 @@
+{
+  "course": {
+    "title": "Pre-Calculus",
+    "tagline": "Pre-Calculus you can see.",
+    "standards": "Texas Pre-Calculus standards (TEKS §111.42)"
+  },
+  "units": [
+    {
+      "n": 1, "name": "Functions", "color": "#7fb3ff",
+      "lessons": [
+        {"ep": 3, "title": "Function Composition", "secs": 126, "teks": "2A–2C", "blurb": "Plugging machines into machines.",
+         "learn": ["A function is a machine: input in, output out", "g(f(x)) means f acts first, then g — read it inside out", "Composition is not commutative: g(f(x)) ≠ f(g(x)) in general", "Splitting a function into an inside and an outside part"],
+         "try": "If f(x) = x + 3 and g(x) = x², what is f(g(2))? Is it the same as g(f(2))?"},
+        {"ep": 4, "title": "Inverse Functions", "secs": 121, "teks": "2E", "blurb": "Running a function backwards.",
+         "learn": ["An inverse undoes a function, step by step in reverse order", "To find it: swap x and y, then solve for y", "The graph of an inverse is the mirror image across y = x", "The horizontal line test, and restricting the domain"],
+         "try": "Find the inverse of f(x) = 3x − 5, and check that f⁻¹(f(2)) = 2."},
+        {"ep": 10, "title": "Even & Odd Functions", "secs": 118, "teks": "2D", "blurb": "Mirror symmetry and spin symmetry.",
+         "learn": ["Even: f(−x) = f(x), a mirror image across the y-axis", "Odd: f(−x) = −f(x), a half-turn around the origin", "cos x is even and sin x is odd", "The test: plug in −x and simplify"],
+         "try": "Is f(x) = x⁴ − 3x² even, odd, or neither? What about g(x) = x³ + 1?"},
+        {"ep": 25, "title": "Transformations of Functions", "secs": 100, "teks": "2G", "blurb": "Shift, stretch, flip, squash.",
+         "learn": ["f(x) + d shifts up; f(x − c) shifts right", "a·f(x) stretches vertically, and a negative a flips over the x-axis", "f(bx) squeezes horizontally, and a negative b flips over the y-axis", "Outside changes act as expected; inside changes act backwards"],
+         "try": "Describe how y = −2√(x + 3) + 1 is built from y = √x, step by step."},
+        {"ep": 27, "title": "Piecewise & Step Functions", "secs": 101, "teks": "2F, 2L, 2M", "blurb": "Different rules on different intervals.",
+         "learn": ["Each piece is drawn only over its own interval", "Open circles vs closed dots at the endpoints", "Jump discontinuities and one-sided behavior", "Floor and ceiling functions make staircases"],
+         "try": "Parking costs $3 per hour or part of an hour. How much is 4 hours and 5 minutes?"}
+      ]
+    },
+    {
+      "n": 2, "name": "Polynomials & Rational Functions", "color": "#f29e6b",
+      "lessons": [
+        {"ep": 24, "title": "Graphing Polynomials", "secs": 97, "teks": "2I, 2J, 5J", "blurb": "Ends, zeros and multiplicity.",
+         "learn": ["End behavior comes from the leading term", "Zeros come from the factors", "Single factor crosses, squared factor bounces, cubed factor flattens", "Degree n allows at most n − 1 turning points"],
+         "try": "Sketch f(x) = x(x − 2)². Where does it cross, and where does it bounce?"},
+        {"ep": 11, "title": "Rational Functions & Asymptotes", "secs": 122, "teks": "2K–2M", "blurb": "Where graphs break apart.",
+         "learn": ["Vertical asymptotes where the denominator is zero", "Behavior from the left and from the right of an asymptote", "Horizontal asymptotes from comparing degrees", "Holes (removable discontinuities) and slant asymptotes"],
+         "try": "Find all asymptotes and holes of f(x) = (x² − 4) / (x − 2)(x + 1)."},
+        {"ep": 23, "title": "Polynomial & Rational Inequalities", "secs": 124, "teks": "5K, 5L", "blurb": "Sign charts on the number line.",
+         "learn": ["A polynomial can only change sign at a zero", "Zeros split the number line into test intervals", "Test one point in each interval and keep the ones you want", "Rational inequalities never include the undefined points"],
+         "try": "Solve (x + 1)(x − 4) ≤ 0 and write the answer in interval notation."}
+      ]
+    },
+    {
+      "n": 3, "name": "Exponentials & Logarithms", "color": "#6fcf97",
+      "lessons": [
+        {"ep": 28, "title": "Exponential Functions & e", "secs": 112, "teks": "2F, 2N, 5I", "blurb": "Multiply instead of add.",
+         "learn": ["Linear growth adds; exponential growth multiplies", "f(x) = a·bˣ: growth when b > 1, decay when 0 < b < 1", "Half-life and decay models", "Where e ≈ 2.718 comes from, and A = Peʳᵗ"],
+         "try": "$500 grows at 4% compounded continuously. How much is there after 5 years?"},
+        {"ep": 5, "title": "Logarithms", "secs": 117, "teks": "5G–5I", "blurb": "Exponents, asked backwards.",
+         "learn": ["log_b y = x means exactly the same as bˣ = y", "The graph of a log is the mirror image of an exponential", "Log rules are exponent rules in disguise", "Using logs to solve exponential equations"],
+         "try": "Solve 3ˣ = 50. (Hint: take a log of both sides.)"}
+      ]
+    },
+    {
+      "n": 4, "name": "Angles & the Unit Circle", "color": "#f2c94c",
+      "lessons": [
+        {"ep": 17, "title": "Radians & Angular Velocity", "secs": 115, "teks": "4B–4D", "blurb": "Measuring angles with the radius.",
+         "learn": ["One radian is one radius of arc length", "A full turn is 2π radians, so π rad = 180°", "Arc length s = rθ", "Linear speed v = rω"],
+         "try": "Convert 135° to radians. Then find the arc length it cuts on a circle of radius 4."},
+        {"ep": 1, "title": "The Unit Circle, Unrolled", "secs": 124, "teks": "2O, 2P, 4A–4C", "blurb": "Where the sine wave really comes from.",
+         "learn": ["A radian is the distance travelled around a circle of radius 1", "sin θ is the height of the point; cos θ is its horizontal position", "Unrolling that height over time draws the sine wave", "Why sine stays between −1 and 1 and repeats every 2π"],
+         "try": "What is sin(3π/2), and where is that point on the unit circle?"},
+        {"ep": 26, "title": "Special & Reference Angles", "secs": 105, "teks": "2P, 4C, 4E", "blurb": "Two triangles, the whole circle.",
+         "learn": ["The 45-45-90 triangle from half a square", "The 30-60-90 triangle from half an equilateral triangle", "Reference angles mirror the first quadrant", "Signs by quadrant: All Students Take Calculus"],
+         "try": "Find cos(4π/3) using its reference angle and the quadrant sign."}
+      ]
+    },
+    {
+      "n": 5, "name": "Graphs of Trig Functions", "color": "#e58fd0",
+      "lessons": [
+        {"ep": 2, "title": "Amplitude, Period & Phase Shift", "secs": 122, "teks": "2G, 2O", "blurb": "Four dials that reshape any wave.",
+         "learn": ["A sets the amplitude, and a negative A flips the wave", "B sets the period: 2π / B", "C shifts the wave right — watch the minus sign", "D moves the midline up or down"],
+         "try": "State the amplitude, period, phase shift and midline of y = 4 sin(3(x − π/6)) − 2."},
+        {"ep": 29, "title": "Tangent & Reciprocal Graphs", "secs": 95, "teks": "2F, 2I", "blurb": "When trig graphs go to infinity.",
+         "learn": ["tan θ is the slope of the radius on the unit circle", "Tangent has period π and asymptotes where cos θ = 0", "csc, sec and cot are 1/sin, 1/cos and 1/tan", "Reciprocal graphs are big where the original is small"],
+         "try": "Where are the vertical asymptotes of y = sec x between 0 and 2π?"},
+        {"ep": 15, "title": "Inverse Trig Functions", "secs": 110, "teks": "2F, 2H", "blurb": "Which angle gave this value?",
+         "learn": ["Sine fails the horizontal line test, so we restrict it", "arcsin outputs angles from −π/2 to π/2", "arccos outputs angles from 0 to π", "Why sin⁻¹(1/2) = π/6, not 5π/6"],
+         "try": "Evaluate cos⁻¹(−√2/2). Which quadrant is the answer in?"},
+        {"ep": 19, "title": "Modeling with Sinusoids", "secs": 110, "teks": "2O", "blurb": "A Ferris wheel becomes an equation.",
+         "learn": ["Read max, min, midline and amplitude from the situation", "The period gives B = 2π / period", "Choose sine or ±cosine from the starting point", "Use the model to answer 'when' questions"],
+         "try": "A tide is highest (9 ft) at noon and lowest (1 ft) at 6 pm. Write a cosine model."}
+      ]
+    },
+    {
+      "n": 6, "name": "Trig Identities & Equations", "color": "#4fd1c5",
+      "lessons": [
+        {"ep": 6, "title": "The Pythagorean Identity", "secs": 114, "teks": "5M", "blurb": "sin² + cos² = 1 is just a triangle.",
+         "learn": ["The unit-circle triangle has legs cos θ and sin θ, hypotenuse 1", "Pythagoras gives sin²θ + cos²θ = 1", "Dividing gives tan²θ + 1 = sec²θ and 1 + cot²θ = csc²θ", "Finding cos θ from sin θ and the quadrant"],
+         "try": "If cos θ = −5/13 and θ is in quadrant III, find sin θ."},
+        {"ep": 20, "title": "Sum & Difference Identities", "secs": 129, "teks": "5M", "blurb": "One rectangle, read two ways.",
+         "learn": ["A tilted triangle inside a rectangle proves the sum formulas", "sin(α + β) = sin α cos β + cos α sin β", "cos(α + β) = cos α cos β − sin α sin β", "Differences: replace β with −β"],
+         "try": "Find the exact value of cos 15° using 45° − 30°."},
+        {"ep": 21, "title": "Solving Trig Equations", "secs": 100, "teks": "5N", "blurb": "Why there are infinitely many answers.",
+         "learn": ["Use the unit circle to find every angle in one turn", "Add 2πk for the full family of solutions", "Restrict to [0, 2π) when asked", "Quadratic-style trig equations: substitute u = sin x"],
+         "try": "Solve 2cos x + 1 = 0 for 0 ≤ x < 2π."}
+      ]
+    },
+    {
+      "n": 7, "name": "Triangles & Vectors", "color": "#b9a6ff",
+      "lessons": [
+        {"ep": 7, "title": "The Law of Cosines", "secs": 121, "teks": "4H", "blurb": "Pythagoras, upgraded for any angle.",
+         "learn": ["c² = a² + b² − 2ab cos C works for every triangle", "When C = 90°, it becomes the Pythagorean theorem", "Proof using coordinates and sin² + cos² = 1", "Use it for SAS and SSS triangles"],
+         "try": "Two sides are 7 and 10 with a 120° angle between them. Find the third side."},
+        {"ep": 22, "title": "Law of Sines & Bearings", "secs": 116, "teks": "4F, 4G", "blurb": "Find the fire from two towers.",
+         "learn": ["a / sin A = b / sin B = c / sin C", "Proof by dropping a height", "Bearings measure clockwise from north", "Solving a two-tower location problem"],
+         "try": "In a triangle, A = 40°, B = 75° and a = 12. Find b."},
+        {"ep": 9, "title": "Vectors", "secs": 105, "teks": "4I–4K", "blurb": "Arrows with size and direction.",
+         "learn": ["Components ⟨x, y⟩ and magnitude by Pythagoras", "Adding vectors tip to tail, and the parallelogram rule", "Scalar multiplication stretches or flips a vector", "A plane flying in a crosswind"],
+         "try": "Find the magnitude of ⟨−6, 8⟩ and the vector 3⟨2, −1⟩ + ⟨1, 4⟩."}
+      ]
+    },
+    {
+      "n": 8, "name": "Parametric, Polar & Conics", "color": "#ff8f8f",
+      "lessons": [
+        {"ep": 13, "title": "Parametric Equations", "secs": 123, "teks": "3A–3C", "blurb": "Where you are, and when.",
+         "learn": ["x and y both depend on time t", "A projectile: where it lands and when", "Eliminating t gives the regular equation", "Orientation: the same circle traced two ways"],
+         "try": "Eliminate t from x = 2t + 1, y = t² to get y in terms of x."},
+        {"ep": 12, "title": "Polar Coordinates", "secs": 111, "teks": "3D, 3E", "blurb": "Roses, hearts and circles.",
+         "learn": ["(r, θ) means turn θ, then walk r", "x = r cos θ and y = r sin θ", "r = 2 is a circle; r = 2 sin 3θ is a rose", "r = 1 + cos θ is a cardioid"],
+         "try": "Convert the point (−3, 3) to polar coordinates."},
+        {"ep": 14, "title": "Conic Sections", "secs": 116, "teks": "3F–3I", "blurb": "Four slices of one cone.",
+         "learn": ["Circle, ellipse, parabola, hyperbola as slices of a double cone", "Ellipse: the sum of distances to the foci is constant", "Hyperbola: the difference of distances is constant", "Finding the center, a, b and the foci from an equation"],
+         "try": "Find the center and foci of (x + 1)²/16 + (y − 2)²/7 = 1."}
+      ]
+    },
+    {
+      "n": 9, "name": "Sequences & Series", "color": "#9fd36f",
+      "lessons": [
+        {"ep": 18, "title": "Arithmetic Sequences & Series", "secs": 117, "teks": "5B, 5C", "blurb": "Gauss's pairing trick.",
+         "learn": ["Recursive vs explicit formulas: aₙ = a₁ + (n − 1)d", "Gauss's trick: pair the first and last terms", "Sₙ = n(a₁ + aₙ) / 2", "Counting seats in a theater"],
+         "try": "Find the sum 5 + 9 + 13 + … + 101."},
+        {"ep": 8, "title": "Infinite Geometric Series", "secs": 124, "teks": "5A, 5D, 5E", "blurb": "Adding forever and landing somewhere.",
+         "learn": ["½ + ¼ + ⅛ + … fills a square exactly", "Partial sums: Sₙ = a(1 − rⁿ) / (1 − r)", "The infinite sum is a / (1 − r), but only if |r| < 1", "The bouncing ball problem"],
+         "try": "Find the sum 12 + 4 + 4/3 + 4/9 + …"},
+        {"ep": 30, "title": "Sigma Notation", "secs": 94, "teks": "5A, 5D", "blurb": "A compact recipe for sums.",
+         "learn": ["Reading Σ: where to start, where to stop, what to add", "Expanding and evaluating a sum", "Writing arithmetic and geometric series in sigma form", "Pulling out constants and splitting sums"],
+         "try": "Evaluate the sum from k = 1 to 4 of (3k − 2)."},
+        {"ep": 16, "title": "The Binomial Theorem", "secs": 108, "teks": "5F", "blurb": "Expanding powers is counting.",
+         "learn": ["(a + b)² as areas in a square", "Coefficients count which brackets give you b", "Pascal's triangle", "(a + b)ⁿ = Σ C(n, k) aⁿ⁻ᵏ bᵏ"],
+         "try": "Find the coefficient of x³ in (x + 3)⁵."}
+      ]
+    }
+  ]
+}
